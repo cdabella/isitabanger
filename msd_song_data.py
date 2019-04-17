@@ -8,12 +8,9 @@ open all files and extract the data to do this.
 """
 
 import os
-import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
 import glob
 import hdf5_getters
-from pprint import pprint
 
 from sklearn.ensemble import RandomForestClassifier
 
